@@ -509,6 +509,9 @@ img {
 .skills__cpp {
     width: 90%;
 }
+.skills__python {
+    width: 30%;
+}
 .skills__java {
     width: 75%;
 }
