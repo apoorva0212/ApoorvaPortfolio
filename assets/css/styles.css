@@ -299,7 +299,7 @@ img {
 
 .home__blob-img {
     width: 180px;
-    height: 200px;
+    height: 170px;
 }
 
 .home__data {
@@ -792,6 +792,14 @@ img {
     .contact__details {
         display: flex;
         justify-content: space-between;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .contact__details {
+        display: flex;
+        flex-direction: column;
     }
     
 }
